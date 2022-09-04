@@ -82,17 +82,19 @@ h2 {
 
 #old-price {
   text-decoration: line-through;
+  font-size: 1.3rem;
+  padding-bottom: 0.1rem;
 }
 
 button {
   width: 100%;
-  padding: 1.5rem 0;
+  padding: 1.35rem 0;
   background-color: var(--dark-cyan);
   color: var(--white);
   border: none;
   border-radius: 0.8rem;
   
-  font-size: 1.3rem;
+  font-size: 1.35rem;
   font-weight: 700;
   
   display: flex;
