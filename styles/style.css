@@ -70,7 +70,7 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1.6rem;
+  gap: 1.8rem;
   padding: 2.4rem 0 1.7rem;
 }
 
@@ -83,7 +83,6 @@ h2 {
 #old-price {
   text-decoration: line-through;
   font-size: 1.3rem;
-  padding-top: 0.4rem;
 }
 
 button {
@@ -94,18 +93,17 @@ button {
   border: none;
   border-radius: 0.8rem;
   
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 700;
   
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.3rem;
+  gap: 1.1rem;
 }
 
 button::before {
   content: url("../img/icon-cart.svg");
-  height: 1.4rem;
   
   /* the way I had done it, before seeing an example on the mozilla website.
      it works, but it's unnecessary so much work. */
