@@ -103,6 +103,7 @@ button {
 
 button::before {
   content: url("../img/icon-cart.svg");
+  padding-top: 0.3rem;
   
   /* the way I had done it, before seeing an example on the mozilla website.
      it works, but it's unnecessary so much work. */
