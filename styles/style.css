@@ -70,7 +70,7 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 2.1rem;
+  gap: 1.9rem;
   padding: 2.4rem 0 1.7rem;
 }
 
@@ -82,8 +82,8 @@ h2 {
 
 #old-price {
   text-decoration: line-through;
-  font-size: 1.3rem;
   padding-bottom: 0.2rem;
+  opacity: 0.9;
 }
 
 button {
@@ -94,7 +94,7 @@ button {
   border: none;
   border-radius: 0.8rem;
   
-  font-size: 1.33rem;
+  font-size: 1.3rem;
   font-weight: 700;
   
   display: flex;
@@ -122,4 +122,3 @@ button:focus {
   background-color: var(--dark-cyan-focus);
   outline: none;
 }
-
