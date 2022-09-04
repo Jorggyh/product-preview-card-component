@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 660px) {
   main {
     width: 60rem;
     display: flex;
@@ -18,18 +18,23 @@
     padding: 3.2rem;
   }
   
-  small {
-    font-size: 1.1rem;
-  }
-  
   h1 {
-    padding: 2.3rem 0 2.5rem;
+    font-size: 3.2rem;
+    padding: 2.1rem 0 2.4rem;
     line-height: 3.2rem;
     width: 90%;
   }
   
+  p {
+    line-height: 2.3rem;
+  }
+  
   #price {
-    padding: 2.8rem 0 2.6rem;
+    padding: 2.6rem 0 2.4rem;
+  }
+  
+  h2 {
+    font-size: 3.2rem;
   }
   
   button {
