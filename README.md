@@ -30,8 +30,8 @@ Users should be able to:
 ### Links
 
 - Solution
-  URL: []()
-- Live Site URL: []()
+  URL: [https://www.frontendmentor.io/solutions/good-to-practice-C44rQOViCC](https://www.frontendmentor.io/solutions/good-to-practice-C44rQOViCC)
+- Live Site URL: [https://jorggyh.github.io/product-preview-card-component/](https://jorggyh.github.io/product-preview-card-component/)
 
 ## My process
 
