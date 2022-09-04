@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; /* 10px = 1rem */
+}
+
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --dark-cyan-focus: #1a4031;
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--cream);
+}
+
+main {
+  width: 34rem;
+  border-radius: 0.8rem;
+  background-color: var(--white);
+}
+
+#img {
+  background: no-repeat center center/cover url("../img/image-product-mobile.jpg");
+  height: 24rem;
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+
+#content {
+  padding: 2.3rem;
+}
+
+small {
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.5rem;
+  color: var(--dark-grayish-blue);
+}
+
+h1 {
+  font-family: Fraunces, serif;
+  font-weight: 500;
+  font-size: 3rem;
+  color: var(--very-dark-blue);
+  padding: 1rem 0 1.5rem;
+  line-height: 3.5rem;
+}
+
+p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--dark-grayish-blue);
+  line-height: 2.2rem;
+}
+
+#price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  padding: 2.4rem 0 1.7rem;
+}
+
+h2 {
+  font-family: Fraunces, serif;
+  font-size: 3rem;
+  color: var(--dark-cyan);
+}
+
+#old-price {
+  text-decoration: line-through;
+  font-size: 1.3rem;
+}
+
+button {
+  width: 100%;
+  padding: 1.6rem 0;
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  border: none;
+  border-radius: 0.8rem;
+  
+  font-size: 1.5rem;
+  font-weight: 700;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+button::before {
+  content: url("../img/icon-cart.svg");
+  
+  /* the way I had done it, before seeing an example on the mozilla website.
+     it works, but it's unnecessary so much work.
+     
+  content: '';
+  display: flex;
+  width: 1.6rem;
+  height: 1.6rem;
+  background: no-repeat url("img/icon-cart.svg"); */
+}
+
+button:hover,
+button:focus {
+  cursor: pointer;
+  background-color: var(--dark-cyan-focus);
+  outline: none;
+}
+
