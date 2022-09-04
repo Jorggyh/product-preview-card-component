@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: var(--cream);
 }
 
@@ -99,20 +99,20 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 1.3rem;
 }
 
 button::before {
   content: url("../img/icon-cart.svg");
+  height: 1.35rem;
   
   /* the way I had done it, before seeing an example on the mozilla website.
-     it works, but it's unnecessary so much work.
-     
-  content: '';
-  display: flex;
-  width: 1.6rem;
-  height: 1.6rem;
-  background: no-repeat url("img/icon-cart.svg"); */
+     it works, but it's unnecessary so much work. */
+  /*content: '';*/
+  /*display: flex;*/
+  /*width: 1.6rem;*/
+  /*height: 1.6rem;*/
+  /*background: no-repeat url("../img/icon-cart.svg");*/
 }
 
 button:hover,
