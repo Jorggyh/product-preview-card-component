@@ -82,6 +82,7 @@ h2 {
 
 #old-price {
   text-decoration: line-through;
+  font-size: 1.35rem;
   padding-bottom: 0.2rem;
   opacity: 0.9;
 }
@@ -94,7 +95,7 @@ button {
   border: none;
   border-radius: 0.8rem;
   
-  font-size: 1.3rem;
+  font-size: 1.32rem;
   font-weight: 700;
   
   display: flex;
