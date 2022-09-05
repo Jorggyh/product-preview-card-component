@@ -25,12 +25,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](/img/screenshot.png)
+| Mobile                    | Desktop                   |
+|---------------------------|---------------------------|
+| ![](/img/screenshot1.png) | ![](/img/screenshot2.png) |
 
 ### Links
 
 - Solution
-  URL: [https://www.frontendmentor.io/solutions/pixel-perfect-without-figma-is-hard-WXp85LUriY](https://www.frontendmentor.io/solutions/pixel-perfect-without-figma-is-hard-WXp85LUriY)
+  URL: [https://www.frontendmentor.io/solutions/pixel-perfect-without-figma-is-hard-gS6pdI4VrX](https://www.frontendmentor.io/solutions/pixel-perfect-without-figma-is-hard-gS6pdI4VrX)
 - Live Site URL: [https://jorggyh.github.io/product-preview-card-component/](https://jorggyh.github.io/product-preview-card-component/)
 
 ## My process
